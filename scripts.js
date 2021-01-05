@@ -63,7 +63,5 @@ form.addEventListener("submit", (e) => {
   if (user) {
     getUser(user);
     search.value = "";
-  } else {
-    main.innerHTML = `<div><h1>User not found</h1></div>`;
   }
 });
