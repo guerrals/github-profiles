@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #2e2a68, #2e2a68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #7159c1;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: #2c2885;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  background-color: #4b2786fa;
+  background-image: linear-gradient(90deg, #412272, #3a0d83);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0 15px 40px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  display: flex;
+  border-radius: 20px;
+  max-width: 800px;
+}
+
+.profile-infos {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.profile-infos h2 {
+  margin-top: 0px;
+}
+
+.profile-infos h3 {
+  font-size: 14px;
+  margin-top: -20px;
+  color: darkgray;
+}
+
+.profile-infos ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+  width: 400px;
+}
+
+.profile-infos ul li {
+  display: flex;
+  align-items: center;
+}
+
+.profile-infos i {
+  padding-right: 10px;
+}
+
+.profile-image img {
+  border: 10px solid #22225e;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.repo {
+  background-color: #2a2a72;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  padding: 4px 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
